@@ -24,7 +24,7 @@ function MapGoogle({ location }) {
 
 	return (
 		<LoadScript googleMapsApiKey="AIzaSyDLRgfb7GZNd9G8tbdTw07ls-6znZrsHC0">
-			<GoogleMap mapContainerStyle={mapStyles} zoom={8} center={defaultCenter}>
+			<GoogleMap mapContainerStyle={mapStyles} zoom={12} center={defaultCenter}>
 				<Marker position={defaultCenter} />
 			</GoogleMap>
 		</LoadScript>
